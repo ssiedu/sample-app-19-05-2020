@@ -3,16 +3,17 @@ public class ForEachExample {
 
     public static void main(String[] args) {
 
-        int marks[]={50,60,55,75,90};
+        String cities[]={"indore","bhopal","pune"};
         
-p:        for(int mark:marks){
-            System.out.println(mark);
+        for(String city : cities){
+           System.out.println(city);
         }
         
+        
         /*
-        //We are iterating a collection (array) using traditional for loop
-        for(int i=0; i<5; i++){
-            System.out.println(marks[i]);
+        int marks[]={10,20,30,40,50,60,70,80,90,100};
+        for(int mark:marks){
+           System.out.println(mark); 
         }
         */
         
